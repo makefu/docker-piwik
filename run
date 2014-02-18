@@ -1,0 +1,1 @@
+docker run -p=10000:80 -d -v /media/ext/piwik/www:/var/www -v /media/ext/piwik/mysql:/var/lib/mysql piwik
